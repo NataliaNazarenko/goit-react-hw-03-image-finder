@@ -35,6 +35,7 @@ export class App extends React.Component {
       searchQuery: query,
       images: [],
       currentPage: 1,
+      error: null,
     });
   };
 
